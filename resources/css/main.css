@@ -11,8 +11,8 @@ html, body {
 body {
     font-size: 13pt;
     font-family: monospace;
-    color: white;
-    background-color: black;
+    color: #fbfbfd;
+    background-color: #1d1d1f;
 }
 
 #container {
