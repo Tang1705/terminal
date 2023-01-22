@@ -75,12 +75,12 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {};
-    Singleton.defaultOptions["cv.pdf"] = "https://www.tang5618.com/CV/CV_EN.pdf"
+    Singleton.defaultOptions["cv.pdf"] = "https://cv.tang5618.com/CV.pdf"
     Singleton.defaultOptions["github.txt"] = "https://github.com/Tang1705";
     Singleton.defaultOptions["linkedin.txt"] = "https://linkedin.com/in/tang5618"
-    Singleton.defaultOptions["posts.txt"] = "https://www.tang5618.com/posts"
+    Singleton.defaultOptions["posts.txt"] = "https://posts.tang5618.com/posts"
     Singleton.defaultOptions["xincheck.txt"] = "https://xincheck.com"
-    Singleton.defaultOptions["interests.txt"] = "Computer Vision, Deep Learning, Depth Map Processing(MDE & DSR, etc.), Photography, Music\n";
+    Singleton.defaultOptions["interests.txt"] = "Computer Vision, Deep Learning, Image & Video Restoration(such as super-resolution), Photography, Music\n";
     Singleton.defaultOptions["log.txt"] = "Based on https://sgzhazelnut.github.io/terminal/ (1.0.0)\nAdded response for events of Enter key(without CMD), ArrowUp key and ArrowDown key, which is more friendly for interaction";
 
     return {
