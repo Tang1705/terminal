@@ -35,7 +35,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to Tang's terminal 2.0.0 :)\nMy name is Q. Tang, a MPhil student with the School of Computer and Information Technology, Beijing Jiaotong University.\n\n\
+        welcome: "Welcome to Tang's terminal 3.0.0 :)\nMy name is Q. Tang, a Ph.D. student with the School of Computer Science, Nanjing University.\n\n\
         Feel free to execute the 'help' command('cat' is always adorable for human being)\n",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
@@ -75,12 +75,12 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {};
-    Singleton.defaultOptions["cv.pdf"] = "https://cv.tang5618.com/CV.pdf"
+    Singleton.defaultOptions["cv.pdf"] = "https://cv.vipixel.net"
     Singleton.defaultOptions["github.txt"] = "https://github.com/Tang1705";
     Singleton.defaultOptions["linkedin.txt"] = "https://linkedin.com/in/tang5618"
-    Singleton.defaultOptions["posts.txt"] = "https://posts.tang5618.com/posts"
+    Singleton.defaultOptions["posts.txt"] = "https://posts.vipixel.net"
     Singleton.defaultOptions["xincheck.txt"] = "https://xincheck.com"
-    Singleton.defaultOptions["interests.txt"] = "Computer Vision, Deep Learning, Image & Video Restoration(such as super-resolution), Photography, Music\n";
+    Singleton.defaultOptions["interests.txt"] = "Computer Vision, Deep Learning, Image & Video Restoration (such as super-resolution), Photography, Music\n";
     Singleton.defaultOptions["log.txt"] = "Based on https://sgzhazelnut.github.io/terminal/ (1.0.0)\nAdded response for events of Enter key(without CMD), ArrowUp key and ArrowDown key, which is more friendly for interaction";
 
     return {
